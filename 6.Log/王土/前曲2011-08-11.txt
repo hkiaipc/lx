@@ -1,0 +1,64 @@
+DateTime        : 2011-8-11 11:00:54
+Start listening : 10.27.190.43 : 5000
+
+DateTime     : 2011-8-11 11:01:02
+AcceptSocket : 10.27.190.22:4000
+
+DateTime               : 2011-8-11 11:01:02
+not find IP in cs_info : 10.27.190.22
+
+DateTime     : 2011-8-11 11:01:41
+AcceptSocket : 10.27.190.67:4000
+
+DateTime       : 2011-8-11 11:01:41
+Received datas : [ 22 ] 7B 01 00 16 31 33 34 38 33 37 34 30 34 38 35 0A 1B BE 43 0F A0 7B
+IP             : 10.27.190.67
+name           : 前曲1#
+sim            : 13483740485
+sign           : Pump
+
+send: StationName: 前曲1#
+CommAddr: 59
+Sign: Pump
+Sim: 13483740485
+Socket: 10.27.190.67:4000
+DateTime       : 2011-8-11 11:01:44
+Received datas : [ 62 ] 7B 09 00 3E 31 33 34 38 33 37 34 30 34 38 35 21 58 44 3B A1 1A 25 50 00 00 8E 6C 00 01 BB 83 03 7C 64 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 D1 DA 7B
+IP             : 10.27.190.67
+name           : 前曲1#
+sim            : 13483740485
+sign           : Pump
+
+DateTime       : 2011-8-11 11:03:45
+Received datas : [ 22 ] 7B 01 00 16 31 33 34 38 33 37 34 30 34 38 35 0A 1B BE 43 0F A0 7B
+IP             : 10.27.190.67
+name           : 前曲1#
+sim            : 13483740485
+sign           : Pump
+
+DateTime     : 2011-8-11 11:04:13
+AcceptSocket : 10.27.190.8:4000
+
+DateTime               : 2011-8-11 11:04:13
+not find IP in cs_info : 10.27.190.8
+
+DateTime     : 2011-8-11 11:04:44
+AcceptSocket : 10.27.190.82:4000
+
+DateTime       : 2011-8-11 11:04:45
+Received datas : [ 22 ] 7B 01 00 16 31 33 34 38 33 35 36 39 35 34 34 0A 1B BE 52 0F A0 7B
+IP             : 10.27.190.82
+name           : 高庙2#
+sim            : 13483569544
+sign           : Pump
+
+send: StationName: 高庙2#
+CommAddr: 50
+Sign: Pump
+Sim: 13483569544
+Socket: 10.27.190.82:4000
+send: StationName: 高庙2#
+CommAddr: 50
+Sign: Pump
+Sim: 13483569544
+Socket: 10.27.190.82:4000

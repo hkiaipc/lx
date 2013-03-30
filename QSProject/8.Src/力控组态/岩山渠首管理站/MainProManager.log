@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProManager>
+<AUTORUN TIMEOUT="1000">0</AUTORUN>
+<PASSWORD PWD="">0</PASSWORD>
+<Process Num="5">
+<n0 MonitorFlag="1" ProcessID="1" Delay="0" MSG="网络服务器" State="0" RUNPAR="">NetServer</n0>
+<n1 MonitorFlag="1" ProcessID="2" Delay="0" MSG="实时数据库" State="0" RUNPAR="">DB</n1>
+<n2 MonitorFlag="1" ProcessID="3" Delay="0" MSG="I/O监控器" State="0" RUNPAR="">IoMonitor</n2>
+<n3 MonitorFlag="1" ProcessID="6" Delay="0" MSG="运行环境" State="0" RUNPAR="">View</n3>
+<n4 MonitorFlag="1" ProcessID="65535" Delay="0" MSG="CommServer" State="0" RUNPAR="">CommServer</n4>
+</Process>
+<FTP Flag="0">
+<CurPathID>0</CurPathID>
+<PassWord/>
+<FTPPath Num="0"/>
+</FTP>
+</ProManager>
