@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <Cmd IP="10.27.190.48" Port="5000" />
+  <Cmd myConnectionstring="server=127.0.0.1;uid=sa;pwd=;database=GatePump" />
+  <Cmd UserName="power" />
+  <Cmd SoundFile="c:\WINDOWS\Media\Windows XP 启动.wav" />
+</Root>

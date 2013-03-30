@@ -1,0 +1,26 @@
+2009-08-27 08:49: View Abnormal exit(ErrCode:C0000005 ErrAddr:00439197)
+00439197 (View): (NULL)
+0043928D (View): (NULL)
+73D31B05 (MFC42): Ordinal1109
+73D31A58 (MFC42): Ordinal1578
+73DC847D (MFC42): Ordinal1579
+77D18709 (USER32): GetDC
+77D187EB (USER32): GetDC
+77D1B368 (USER32): DefWindowProcW
+77D1E639 (USER32): IsWindowInDestroy
+7C92EAE3 (ntdll): KiUserCallbackDispatcher
+0044806D (View): (NULL)
+73D31B9B (MFC42): Ordinal6374
+0044CAC7 (View): (NULL)
+73D31B05 (MFC42): Ordinal1109
+73D31A58 (MFC42): Ordinal1578
+73DC847D (MFC42): Ordinal1579
+77D18709 (USER32): GetDC
+77D187EB (USER32): GetDC
+77D1B368 (USER32): DefWindowProcW
+77D1B3B4 (USER32): DefWindowProcW
+7C92EAE3 (ntdll): KiUserCallbackDispatcher
+00464474 (View): (NULL)
+73D3CF74 (MFC42): Ordinal1576
+7C816D4F (kernel32): RegisterWaitForInputIdle
+

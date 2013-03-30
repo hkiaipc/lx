@@ -1,0 +1,314 @@
+2009-03-22 10:26: View Abnormal exit(ErrCode:C0000005 ErrAddr:00439197)
+00439197 (View): (NULL)
+0043928D (View): (NULL)
+73D31B05 (MFC42): Ordinal1109
+73D31A58 (MFC42): Ordinal1578
+73DC847D (MFC42): Ordinal1579
+77D18734 (USER32): GetDC
+77D18816 (USER32): GetDC
+77D1B4C0 (USER32): DefWindowProcW
+77D1DABD (USER32): IsWindowInDestroy
+7C92EAE3 (ntdll): KiUserCallbackDispatcher
+00464474 (View): (NULL)
+73D3CF74 (MFC42): Ordinal1576
+7C816FD7 (kernel32): RegisterWaitForInputIdle
+
+2009-03-22 10:26: View Abnormal exit(ErrCode:C0000005 ErrAddr:00DBA7B3)
+00DBA7B3 (NULL): (NULL)
+0043893F (View): (NULL)
+73D31EB6 (MFC42): Ordinal5163
+73D31B9B (MFC42): Ordinal6374
+00439231 (View): (NULL)
+73D31B05 (MFC42): Ordinal1109
+73D31A58 (MFC42): Ordinal1578
+73DC847D (MFC42): Ordinal1579
+77D18734 (USER32): GetDC
+77D18816 (USER32): GetDC
+77D1B4C0 (USER32): DefWindowProcW
+77D1B50C (USER32): DefWindowProcW
+7C92EAE3 (ntdll): KiUserCallbackDispatcher
+00446A83 (View): (NULL)
+77BF8127 (msvcrt): _unDNameEx
+73D3CF74 (MFC42): Ordinal1576
+7C816FD7 (kernel32): RegisterWaitForInputIdle
+
+2009-03-22 10:26: View Abnormal exit(ErrCode:C0000005 ErrAddr:0013E862)
+0013E862 (NULL): (NULL)
+0043893F (View): (NULL)
+73D31EB6 (MFC42): Ordinal5163
+73D31B9B (MFC42): Ordinal6374
+00439231 (View): (NULL)
+73D31B05 (MFC42): Ordinal1109
+73D31A58 (MFC42): Ordinal1578
+73DC847D (MFC42): Ordinal1579
+77D18734 (USER32): GetDC
+77D18816 (USER32): GetDC
+77D1B4C0 (USER32): DefWindowProcW
+77D1B50C (USER32): DefWindowProcW
+7C92EAE3 (ntdll): KiUserCallbackDispatcher
+77BF8127 (msvcrt): _unDNameEx
+00446A83 (View): (NULL)
+77BF8127 (msvcrt): _unDNameEx
+73D3CF74 (MFC42): Ordinal1576
+7C816FD7 (kernel32): RegisterWaitForInputIdle
+
+2009-03-23 13:40: View Abnormal exit(ErrCode:C0000005 ErrAddr:00439197)
+00439197 (View): (NULL)
+0043928D (View): (NULL)
+73D31B05 (MFC42): Ordinal1109
+73D31A58 (MFC42): Ordinal1578
+73DC847D (MFC42): Ordinal1579
+77D18734 (USER32): GetDC
+77D18816 (USER32): GetDC
+77D1B4C0 (USER32): DefWindowProcW
+77D1DABD (USER32): IsWindowInDestroy
+7C92EAE3 (ntdll): KiUserCallbackDispatcher
+00464474 (View): (NULL)
+73D3CF74 (MFC42): Ordinal1576
+7C816FD7 (kernel32): RegisterWaitForInputIdle
+
+2009-03-23 13:40: View Abnormal exit(ErrCode:C0000005 ErrAddr:00DDF32F)
+
+2009-03-23 13:40: View Abnormal exit(ErrCode:C0000005 ErrAddr:00030197)
+
+2009-03-23 14:52: View Abnormal exit(ErrCode:C0000005 ErrAddr:00439197)
+00439197 (View): (NULL)
+0043928D (View): (NULL)
+73D31B05 (MFC42): Ordinal1109
+73D31A58 (MFC42): Ordinal1578
+73DC847D (MFC42): Ordinal1579
+77D18734 (USER32): GetDC
+77D18816 (USER32): GetDC
+77D1B4C0 (USER32): DefWindowProcW
+77D1DABD (USER32): IsWindowInDestroy
+7C92EAE3 (ntdll): KiUserCallbackDispatcher
+00464474 (View): (NULL)
+73D3CF74 (MFC42): Ordinal1576
+7C816FD7 (kernel32): RegisterWaitForInputIdle
+
+2009-03-23 14:52: View Abnormal exit(ErrCode:C000001E ErrAddr:00030178)
+00030178 (NULL): (NULL)
+0043893F (View): (NULL)
+73D31EB6 (MFC42): Ordinal5163
+73D31B9B (MFC42): Ordinal6374
+00439231 (View): (NULL)
+73D31B05 (MFC42): Ordinal1109
+73D31A58 (MFC42): Ordinal1578
+73DC847D (MFC42): Ordinal1579
+77D18734 (USER32): GetDC
+77D18816 (USER32): GetDC
+77D1B4C0 (USER32): DefWindowProcW
+77D1B50C (USER32): DefWindowProcW
+7C92EAE3 (ntdll): KiUserCallbackDispatcher
+00446A83 (View): (NULL)
+77BF8127 (msvcrt): _unDNameEx
+73D3CF74 (MFC42): Ordinal1576
+7C816FD7 (kernel32): RegisterWaitForInputIdle
+
+2009-03-23 14:53: View Abnormal exit(ErrCode:C0000005 ErrAddr:00000000)
+73D4C678 (MFC42): Ordinal4167
+0043893F (View): (NULL)
+73D31EB6 (MFC42): Ordinal5163
+73D31B9B (MFC42): Ordinal6374
+00439231 (View): (NULL)
+73D31B05 (MFC42): Ordinal1109
+73D31A58 (MFC42): Ordinal1578
+73DC847D (MFC42): Ordinal1579
+77D18734 (USER32): GetDC
+77D18816 (USER32): GetDC
+77D1B4C0 (USER32): DefWindowProcW
+77D1B50C (USER32): DefWindowProcW
+7C92EAE3 (ntdll): KiUserCallbackDispatcher
+77BF8127 (msvcrt): _unDNameEx
+00446A83 (View): (NULL)
+77BF8127 (msvcrt): _unDNameEx
+73D3CF74 (MFC42): Ordinal1576
+7C816FD7 (kernel32): RegisterWaitForInputIdle
+
+2009-03-25 16:14: while prog running 脚本中运算异常-sqrt！
+2009-03-25 16:28: while prog running 脚本中运算异常-sqrt！
+2009-03-25 16:29: while prog running 脚本中运算异常-sqrt！
+2009-03-25 16:30: while prog running 脚本中运算异常-sqrt！
+2009-03-25 16:33: while prog running 脚本中运算异常-sqrt！
+2009-03-25 16:44: while prog running 脚本中运算异常-sqrt！
+2009-03-25 17:00: while prog running 脚本中运算异常-sqrt！
+2009-03-25 17:06: while prog running 脚本中运算异常-sqrt！
+2009-04-22 11:23:  脚本中运算异常-sqrt！
+2009-04-22 11:27:  脚本中运算异常-sqrt！
+2009-04-22 12:03:  脚本中运算异常-sqrt！
+2009-04-22 12:15:  脚本中运算异常-sqrt！
+2009-04-22 12:24:  脚本中运算异常-sqrt！
+2009-04-22 12:29:  脚本中运算异常-sqrt！
+2009-04-22 12:31:  脚本中运算异常-sqrt！
+2009-04-22 12:33:  脚本中运算异常-sqrt！
+2009-04-22 13:05:  脚本中运算异常-sqrt！
+2009-04-22 13:09:  脚本中运算异常-sqrt！
+2009-04-22 13:13:  脚本中运算异常-sqrt！
+2009-04-22 13:17:  脚本中运算异常-sqrt！
+2009-04-22 13:27:  脚本中运算异常-sqrt！
+2009-04-22 13:35:  脚本中运算异常-sqrt！
+2009-04-22 15:23:  脚本中运算异常-sqrt！
+2009-04-22 15:26:  脚本中运算异常-sqrt！
+2009-04-22 15:46:  脚本中运算异常-sqrt！
+2009-04-22 15:49:  脚本中运算异常-sqrt！
+2009-04-22 16:00:  脚本中运算异常-sqrt！
+2009-04-22 16:04:  脚本中运算异常-sqrt！
+2009-04-22 16:05: Exception in excute act 4
+2009-04-22 16:11:  脚本中运算异常-sqrt！
+2009-04-22 16:13:  脚本中运算异常-sqrt！
+2009-04-22 16:21:  脚本中运算异常-sqrt！
+2009-04-22 16:37:  脚本中运算异常-sqrt！
+2009-04-22 17:09:  脚本中运算异常-sqrt！
+2009-04-22 17:12:  脚本中运算异常-sqrt！
+2009-04-22 17:18:  脚本中运算异常-sqrt！
+2009-04-22 17:27: Window "历史数据", Object(Text89) at (573,51) 脚本中运算异常-除零！
+2009-04-22 17:50:  脚本中运算异常-sqrt！
+2009-04-22 17:53:  脚本中运算异常-sqrt！
+2009-04-22 18:05:  脚本中运算异常-sqrt！
+2009-04-22 18:06:  脚本中运算异常-sqrt！
+2009-04-22 18:44:  脚本中运算异常-sqrt！
+2009-04-22 19:06:  脚本中运算异常-sqrt！
+2009-04-22 19:54:  脚本中运算异常-sqrt！
+2009-04-23 08:42:  脚本中运算异常-sqrt！
+2009-04-23 09:01: View Abnormal exit(ErrCode:C0000005 ErrAddr:00439197)
+00439197 (View): (NULL)
+0043928D (View): (NULL)
+73D31B05 (MFC42): Ordinal1109
+73D31A58 (MFC42): Ordinal1578
+73DC847D (MFC42): Ordinal1579
+77D18724 (USER32): GetDC
+77D1D043 (USER32): EnumDisplayMonitors
+77D1B4B0 (USER32): DefWindowProcW
+77D1DAA5 (USER32): IsWindowInDestroy
+7C92EAE3 (ntdll): KiUserCallbackDispatcher
+00464474 (View): (NULL)
+73D3CF74 (MFC42): Ordinal1576
+7C816FF7 (kernel32): RegisterWaitForInputIdle
+
+2009-04-23 09:01: View Abnormal exit(ErrCode:C0000005 ErrAddr:00D8B8EA)
+00D8B8EA (NULL): (NULL)
+0043893F (View): (NULL)
+
+2009-04-23 09:01: View Abnormal exit(ErrCode:C0000005 ErrAddr:005D01A0)
+005D01A0 (NULL): (NULL)
+0043893F (View): (NULL)
+
+2009-04-23 09:21: View Abnormal exit(ErrCode:C0000005 ErrAddr:00439197)
+00439197 (View): (NULL)
+0043928D (View): (NULL)
+73D31B05 (MFC42): Ordinal1109
+73D31A58 (MFC42): Ordinal1578
+73DC847D (MFC42): Ordinal1579
+77D18724 (USER32): GetDC
+77D1D043 (USER32): EnumDisplayMonitors
+77D1B4B0 (USER32): DefWindowProcW
+77D1DAA5 (USER32): IsWindowInDestroy
+7C92EAE3 (ntdll): KiUserCallbackDispatcher
+00464474 (View): (NULL)
+73D3CF74 (MFC42): Ordinal1576
+7C816FF7 (kernel32): RegisterWaitForInputIdle
+
+2009-04-23 09:21: View Abnormal exit(ErrCode:C0000005 ErrAddr:FFFFFFFF)
+FFFFFFFF (NULL): (NULL)
+73D4C678 (MFC42): Ordinal4167
+0043893F (View): (NULL)
+73D31EB6 (MFC42): Ordinal5163
+73D31B9B (MFC42): Ordinal6374
+00439231 (View): (NULL)
+73D31B05 (MFC42): Ordinal1109
+73D31A58 (MFC42): Ordinal1578
+73DC847D (MFC42): Ordinal1579
+77D18724 (USER32): GetDC
+77D18806 (USER32): GetDC
+77D1B4B0 (USER32): DefWindowProcW
+77D1B4FC (USER32): DefWindowProcW
+7C92EAE3 (ntdll): KiUserCallbackDispatcher
+00446A83 (View): (NULL)
+77BF8127 (msvcrt): _unDNameEx
+73D3CF74 (MFC42): Ordinal1576
+7C816FF7 (kernel32): RegisterWaitForInputIdle
+
+2009-04-23 09:21: View Abnormal exit(ErrCode:C0000005 ErrAddr:00000000)
+73D4C678 (MFC42): Ordinal4167
+0043893F (View): (NULL)
+73D31EB6 (MFC42): Ordinal5163
+73D31B9B (MFC42): Ordinal6374
+00439231 (View): (NULL)
+73D31B05 (MFC42): Ordinal1109
+73D31A58 (MFC42): Ordinal1578
+73DC847D (MFC42): Ordinal1579
+77D18724 (USER32): GetDC
+77D18806 (USER32): GetDC
+77D1B4B0 (USER32): DefWindowProcW
+77D1B4FC (USER32): DefWindowProcW
+7C92EAE3 (ntdll): KiUserCallbackDispatcher
+77BF8127 (msvcrt): _unDNameEx
+00446A83 (View): (NULL)
+77BF8127 (msvcrt): _unDNameEx
+73D3CF74 (MFC42): Ordinal1576
+7C816FF7 (kernel32): RegisterWaitForInputIdle
+
+2009-04-23 09:49:  脚本中运算异常-sqrt！
+2009-04-23 10:42:  脚本中运算异常-sqrt！
+2009-04-23 10:45:  脚本中运算异常-sqrt！
+2009-04-23 10:51:  脚本中运算异常-sqrt！
+2009-04-23 10:54:  脚本中运算异常-sqrt！
+2009-04-23 10:55:  脚本中运算异常-sqrt！
+2009-04-23 10:58:  脚本中运算异常-sqrt！
+2009-04-23 11:03:  脚本中运算异常-sqrt！
+2009-04-23 12:30:  脚本中运算异常-sqrt！
+2009-04-23 12:31:  脚本中运算异常-sqrt！
+2009-04-23 12:33:  脚本中运算异常-sqrt！
+2009-04-23 12:50:  脚本中运算异常-sqrt！
+2009-04-25 06:33:  脚本中运算异常-sqrt！
+2009-04-29 19:59:  脚本中运算异常-sqrt！
+2009-04-29 20:24:  脚本中运算异常-sqrt！
+2009-04-29 20:29:  脚本中运算异常-sqrt！
+2009-04-30 08:26:  脚本中运算异常-sqrt！
+2009-04-30 10:32:  脚本中运算异常-sqrt！
+2009-05-01 15:12:  脚本中运算异常-sqrt！
+2009-05-01 15:17:  脚本中运算异常-sqrt！
+2009-05-01 15:19:  脚本中运算异常-sqrt！
+2009-05-01 15:22:  脚本中运算异常-sqrt！
+2009-05-01 16:08:  脚本中运算异常-sqrt！
+2009-05-03 07:33: Window "历史数据", Object(Text89) at (573,51) 脚本中运算异常-除零！
+2009-05-03 07:40:  脚本中运算异常-sqrt！
+2009-05-04 10:35:  脚本中运算异常-sqrt！
+2009-05-04 12:26:  脚本中运算异常-sqrt！
+2009-05-08 11:00:  脚本中运算异常-sqrt！
+2009-05-08 15:09:  脚本中运算异常-除零！
+2009-05-08 15:09:  脚本中运算异常-sqrt！
+2009-05-08 15:35:  脚本中运算异常-除零！
+2009-05-08 15:35:  脚本中运算异常-sqrt！
+2009-05-08 20:08:  脚本中运算异常-除零！
+2009-05-08 20:08:  脚本中运算异常-sqrt！
+2009-05-09 20:05:  脚本中运算异常-除零！
+2009-05-09 20:05:  脚本中运算异常-sqrt！
+2009-05-20 10:05:  脚本中运算异常-除零！
+2009-05-20 10:05:  脚本中运算异常-sqrt！
+2009-05-20 13:47:  脚本中运算异常-除零！
+2009-05-20 13:47:  脚本中运算异常-sqrt！
+2009-05-20 14:34:  脚本中运算异常-除零！
+2009-05-20 14:34:  脚本中运算异常-sqrt！
+2009-05-20 14:54:  脚本中运算异常-除零！
+2009-05-20 14:54:  脚本中运算异常-sqrt！
+2009-05-20 15:37:  脚本中运算异常-除零！
+2009-05-20 15:37:  脚本中运算异常-sqrt！
+2009-06-10 16:35:  脚本中运算异常-除零！
+2009-06-10 16:35:  脚本中运算异常-sqrt！
+2009-06-10 16:37:  脚本中运算异常-除零！
+2009-06-10 16:37:  脚本中运算异常-sqrt！
+2009-06-10 16:46:  脚本中运算异常-除零！
+2009-06-10 16:46:  脚本中运算异常-sqrt！
+2009-06-22 11:11: while prog running 脚本中运算异常-除零！
+2009-06-22 11:11:  脚本中运算异常-sqrt！
+2009-06-22 11:16: while prog running 脚本中运算异常-除零！
+2009-06-22 11:16:  脚本中运算异常-sqrt！
+2009-06-22 11:18: while prog running 脚本中运算异常-除零！
+2009-06-22 11:18:  脚本中运算异常-sqrt！
+2009-06-22 12:12: while prog running 脚本中运算异常-除零！
+2009-06-22 12:12:  脚本中运算异常-sqrt！
+2009-06-22 12:20: while prog running 脚本中运算异常-除零！
+2009-06-22 12:20:  脚本中运算异常-sqrt！
+2009-06-22 12:39: while prog running 脚本中运算异常-除零！
+2009-06-22 12:39:  脚本中运算异常-sqrt！

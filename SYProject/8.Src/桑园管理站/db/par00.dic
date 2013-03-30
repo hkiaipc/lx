@@ -1,0 +1,40 @@
+6
+1
+37
+0;	NAME;	4;	0;	0
+1;	KIND;	1;	0;	0
+2;	DESC;	4;	0;	0
+4;	UNIT;	1;	0;	0
+49;	FORMAT;	1;	0;	0
+15;	LASTPV;	2;	0;	0
+13;	PV;	2;	0;	0
+10;	EU;	4;	0;	0
+12;	EULO;	2;	0;	0
+11;	EUHI;	2;	0;	0
+17;	PVRAW;	2;	0;	0
+79;	SCALEFL;	1;	0;	0
+19;	PVRAWLO;	2;	0;	0
+18;	PVRAWHI;	2;	0;	0
+34;	STATIS;	1;	0;	0
+51;	ALMENAB;	1;	1;	0
+60;	DEADBAND;	2;	1;	0
+52;	LL;	2;	1;	0
+53;	LO;	2;	1;	0
+54;	HI;	2;	1;	0
+55;	HH;	2;	1;	0
+56;	RATE;	2;	1;	0
+57;	DEV;	2;	1;	0
+61;	LLPR;	1;	1;	0
+62;	LOPR;	1;	1;	0
+63;	HIPR;	1;	1;	0
+64;	HHPR;	1;	1;	0
+65;	RATEPR;	1;	1;	0
+66;	DEVPR;	1;	1;	0
+70;	RATECYC;	1;	1;	0
+91;	SP;	2;	1;	0
+75;	SQRTFL;	1;	0;	0
+69;	ALARMDELAY;	1;	1;	0
+36;	LINEFL;	1;	0;	0
+37;	LINETBL;	4;	0;	0
+38;	ROCFL;	1;	0;	0
+39;	ROC;	2;	0;	0

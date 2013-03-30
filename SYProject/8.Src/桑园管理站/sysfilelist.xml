@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<syssubfile>
+<FileNode Name="历史数据.drw">
+<FileName File="DateTime.dll"/>
+<FileName File="Report.dll"/>
+</FileNode>
+<FileNode Name="桑园累积流量清零画面.drw">
+<FileName File="TextControl6.dll"/>
+</FileNode>
+<FileNode Name="欢迎画面.drw">
+<FileName File="TextControl6.dll"/>
+<FileName File="TextControl6.dll"/>
+</FileNode>
+<FileNode Name="水情报表.drw">
+<FileName File="DateTime.dll"/>
+<FileName File="Report.dll"/>
+</FileNode>
+<FileNode Name="闸门月报表.drw">
+<FileName File="Report.dll"/>
+<FileName File="DateTime.dll"/>
+</FileNode>
+<FileNode Name="雨情统计.drw">
+<FileName File="WebControl6.dll"/>
+</FileNode>
+<FileNode Name="雨量报表.drw">
+<FileName File="Report.dll"/>
+<FileName File="DateTime.dll"/>
+</FileNode>
+<FileNode Name="mainsub">
+<FileName File="ADOModule2.dll"/>
+</FileNode>
+</syssubfile>

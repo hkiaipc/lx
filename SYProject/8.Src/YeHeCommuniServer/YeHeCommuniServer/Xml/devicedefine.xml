@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE devicedefines []>
+<devicedefines>
+
+  <!--xd2300-->
+  <devicedefine devicetype="xd2300" devicetext="xd2300">
+    <!-- down device -->
+    <operadefine name="Down">
+      <sendpart>
+        <datafield name="address" begin="0" length="1" converter="Xdgk.Communi.Int8Converter"/>
+
+        <datafield name="others" begin="1" length="8" converter="Xdgk.Communi.OriginalConverter" bytes="10 00 A2 00 01 02 00 00"/>
+
+        <datafield name="crc" begin="9" length="2" converter="Xdgk.Communi.OriginalConverter" crc="true"/>
+
+        <crcer name="Xdgk.Communi.CRC16"/>
+      </sendpart>
+
+      <receivepart length="8">
+        <datafield name="address" begin="0" length="1" converter="Xdgk.Communi.Int8Converter"/>
+
+        <datafield name="fc" begin="1" length="1" converter="Xdgk.Communi.Int8Converter" bytes="10" matchcheck="true"/>
+
+        <datafield name="others" begin="2" length="4" converter="Xdgk.Communi.Int8Converter" bytes="00 A2 00 01" matchcheck="true"/>
+
+        <datafield name="crc" begin="6" length="2" converter="Xdgk.Communi.OriginalConverter" crc="true"/>
+
+        <crcer name="Xdgk.Communi.CRC16"/>
+      </receivepart>
+    </operadefine>
+    <!--read real-->
+
+    <operadefine name="ReadReal">
+      <sendpart>
+        <datafield name="address" begin="0" length="1" converter="Xdgk.Communi.Int8Converter"/>
+
+        <datafield name="others" begin="1" length="5" converter="Xdgk.Communi.OriginalConverter" bytes="04 00 03 00 08"/>
+
+        <datafield name="crc" begin="6" length="2" converter="Xdgk.Communi.OriginalConverter" crc="true"/>
+
+        <crcer name="Xdgk.Communi.CRC16"/>
+      </sendpart>
+
+      <receivepart length="21">
+        <datafield name="address" begin="0" length="1" converter="Xdgk.Communi.Int8Converter"/>
+
+        <datafield name="fc" begin="1" length="1" converter="Xdgk.Communi.Int8Converter" bytes="04" matchcheck="true"/>
+
+        <datafield name="indataLength" begin="2" length="1" converter="Xdgk.Communi.Int8Converter" bytes="10" matchcheck="true"/>
+
+        <datafield name="WD1" begin="3" length="2" converter="Xdgk.Communi.Int16Converter" littleendian="false"/>
+
+        <datafield name="WD2" begin="9" length="2" converter="Xdgk.Communi.Int16Converter" littleendian="false"/>
+
+        <datafield name="voltage" begin="15" length="2" converter="Xdgk.Communi.Int16Converter" littleendian="false"/>
+
+        <datafield name="crc" begin="19" length="2" converter="Xdgk.Communi.OriginalConverter" crc="true"/>
+        <crcer name="Xdgk.Communi.CRC16"/>
+      </receivepart>
+    </operadefine>
+
+    <!-- read record index-->
+    <operadefine name="ReadRecordIndex">
+      <sendpart>
+        <datafield name="address" begin="0" length="1" converter="Xdgk.Communi.Int8Converter"/>
+
+        <datafield name="others" begin="1" length="5" converter="Xdgk.Communi.OriginalConverter" bytes="03 00 0a 00 01"/>
+
+        <datafield name="crc" begin="6" length="2" converter="Xdgk.Communi.OriginalConverter" crc="true"/>
+
+        <crcer name="Xdgk.Communi.CRC16"/>
+      </sendpart>
+
+      <receivepart length="7">
+        <datafield name="address" begin="0" length="1" converter="Xdgk.Communi.Int8Converter"/>
+
+        <datafield name="fc" begin="1" length="1" converter="Xdgk.Communi.Int8Converter" bytes="03" matchcheck="true"/>
+
+        <datafield name="indataLength" begin="2" length="1" converter="Xdgk.Communi.Int8Converter" bytes="02" matchcheck="true"/>
+
+        <datafield name="RecordIndex" begin="3" length="2" converter="Xdgk.Communi.Int16Converter" littleendian="false"/>
+
+        <datafield name="crc" begin="5" length="2" converter="Xdgk.Communi.OriginalConverter" crc="true"/>
+        <crcer name="Xdgk.Communi.CRC16"/>
+      </receivepart>
+    </operadefine>
+
+    <!-- read record -->
+    <operadefine name="ReadRecord">
+      <sendpart>
+        <datafield name="address" begin="0" length="1" converter="Xdgk.Communi.Int8Converter"/>
+        <datafield name="fc" begin="1" length="1" converter="Xdgk.Communi.OriginalConverter" bytes="20"/>
+
+        <datafield name="RecordIndex" begin="2" length="2" converter="Xdgk.Communi.Int16Converter" bytes="" littleendian="false"/>
+
+        <datafield name="crc" begin="4" length="2" converter="Xdgk.Communi.OriginalConverter" crc="true"/>
+
+        <crcer name="Xdgk.Communi.CRC16"/>
+      </sendpart>
+
+      <receivepart length="33">
+        <datafield name="address" begin="0" length="1" converter="Xdgk.Communi.Int8Converter"/>
+
+        <datafield name="fc" begin="1" length="1" converter="Xdgk.Communi.Int8Converter" bytes="20" matchcheck="true"/>
+
+        <datafield name="indataLength" begin="2" length="1" converter="Xdgk.Communi.Int8Converter" bytes="1C" matchcheck="true"/>
+
+        <datafield name="RecordIndex" begin="3" length="2" converter="Xdgk.Communi.Int16Converter" littleendian="false"/>
+
+        <datafield name="DT" begin="5" length="12" converter="Xdgk.Communi.XD2300Converter.DTConverter"/>
+
+        <datafield name="WL1" begin="17" length="2" converter="Xdgk.Communi.Int16Converter" littleendian="false"/>
+
+        <datafield name="WL2" begin="19" length="2" converter="Xdgk.Communi.Int16Converter" littleendian="false"/>
+
+        <datafield name="instantFlux"
+            begin="21"
+            length="4"
+            converter="Xdgk.Communi.UInt32ModbusConverter"/>
+
+        <datafield name="usedAmount" 
+            begin="25" 
+            length="4"
+            converter="Xdgk.Communi.UInt32ModbusConverter" />
+
+
+        <datafield name="crc" begin="31" length="2" converter="Xdgk.Communi.OriginalConverter" crc="true"/>
+        <crcer name="Xdgk.Communi.CRC16"/>
+      </receivepart>
+    </operadefine>
+    
+    <!-- write record save timespan -->
+    <operadefine name="WriteRecordSaveTimespan">
+      <sendpart>
+        <datafield name="address"
+                   begin="0"
+                   length="1"
+                   converter="Xdgk.Communi.Int8Converter"/>
+        <datafield name="fc"
+                   begin="1"
+                   length="1"
+                   converter="Xdgk.Communi.OriginalConverter"
+                   bytes="10"/>
+
+        <datafield name="others"
+                   begin="2"
+                   length="5"
+                   converter="Xdgk.Communi.OriginalConverter"
+                   bytes="00 08 00 01 02"/>
+
+
+        <datafield name="RecordSaveTimeSpan"
+                   begin="7"
+                   length="2"
+                   converter="Xdgk.Communi.OriginalConverter"
+                   bytes="00 0A"/>
+                   
+        <datafield name="crc"
+                   begin="9"
+                   length="2"
+                   converter="Xdgk.Communi.OriginalConverter"
+                   crc="true"/>
+
+        <crcer name="Xdgk.Communi.CRC16"/>
+      </sendpart>
+
+      <receivepart length="8">
+        <datafield name="address"
+                   begin="0"
+                   length="1"
+                   converter="Xdgk.Communi.Int8Converter"/>
+
+        <datafield name="fc" 
+                   begin="1" 
+                   length="1" 
+                   converter="Xdgk.Communi.Int8Converter" 
+                   bytes="10" 
+                   matchcheck="true"/>
+
+        <datafield name="others"
+                   begin="2"
+                   length="4"
+                   converter="Xdgk.Communi.Int16Converter"
+                   bytes="00 08 00 01"
+                   matchcheck="true" />
+
+        <datafield name="crc" 
+                   begin="6" 
+                   length="2" 
+                   converter="Xdgk.Communi.OriginalConverter" 
+                   crc="true"/>
+        <crcer name="Xdgk.Communi.CRC16"/>
+      </receivepart>
+    </operadefine>
+  </devicedefine>
+
+  <devicedefine devicetype="LXRainDevice" devicetext="lxrain">
+      <operadefine name="readrain">
+          <sendpart>
+                <datafield name="h" begin="0" length="2" converter="Xdgk.Communi.OriginalConverter" bytes="5b 5b"/>
+                <datafield name="address" begin="2" length="1" converter="Xdgk.Communi.Int8Converter"/>
+                <datafield name="cmd" begin="3" length="1" converter="Xdgk.Communi.OriginalConverter" bytes="01"/>
+                <datafield name="no" begin="4" length="1" converter="Xdgk.Communi.OriginalConverter" bytes="00"/>
+                <datafield name="lastdt" begin="5" length="8" converter="Xdgk.Communi.Int64Converter" bytes="1 2 3 4 1 2 3 4"/>
+                <datafield name="t" begin="13" length="2" converter="Xdgk.Communi.OriginalConverter" bytes="5d 5d"/>
+          </sendpart>
+
+          <receivepart length="67">
+                <datafield name="h" begin="0" length="2" converter="Xdgk.Communi.OriginalConverter" bytes="5b 5b" matchcheck="true"/>
+                <datafield name="address" begin="2" length="1" converter="Xdgk.Communi.Int8Converter"/>
+                <datafield name="cmd" begin="3" length="1" converter="Xdgk.Communi.OriginalConverter" bytes="81" matchcheck="true"/>
+                <datafield name="no" begin="4" length="1" converter="Xdgk.Communi.OriginalConverter" />
+                <datafield name="recordcount" begin="5" length="1" converter="Xdgk.Communi.Int8Converter" />
+                <datafield name="record" begin="6" length="60" converter="Xdgk.Communi.OriginalConverter"/>
+                <datafield name="t" begin="66" length="2" converter="Xdgk.Communi.OriginalConverter" bytes="5d 5d"/>
+          </receivepart>
+      </operadefine>
+  </devicedefine>
+
+</devicedefines>

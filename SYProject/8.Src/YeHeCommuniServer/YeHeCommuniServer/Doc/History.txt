@@ -1,0 +1,17 @@
+﻿v1.6.0.0	2013-03-30
+	add xd2206DataImporter library
+	
+v1.5.0.0	2012-07-19
+	fixed dbibase instance bug
+	
+v1.3.1.0	2011-06-13
+	add xd2402 device
+
+v1.3.0.0    2011-05-23
+    add usedAmount
+
+v1.2.0.0	2011-05-09
+	add sy elevation
+
+v1.1.0.0
+    add calc flux

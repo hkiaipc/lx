@@ -1,0 +1,49 @@
+﻿v1.20.0.0	2013-03-29
+	fix index out of range exception
+	
+v1.19.0.0	2012-06-29
+	import 'sangyuan' ditch data
+	
+v1.17.0.0	2012-05-09
+	xd202 total amount abs(remineAmount)
+	
+v1.16.0.0	2012-05-08
+	add xd2122 importer project
+	
+v1.15.0.0	2012-05-03
+	xd202 instantflux dot 2
+
+v1.14.0.0	2012-04-25
+	
+v1.13.0.0	2012-04-21
+    添加口门仪表 - 闸门量水开度仪(XD-2102/XD-202)
+
+v1.12.0.0	2011-08-11
+	修正获取分中心pump列表失败问题
+	
+v1.9.0.0	2011-06-14
+	更新新版口门(xd2402)最新数据, 使用lxsydb数据库
+	
+v1.8.0.0	2011-05-14
+	修正数据库不符相关
+
+v1.7.0.0    2011-05-12
+    处理数据错误
+
+v1.6.0.0
+    不能建立连接
+
+v1.5.0.0    2011-05-06
+    使用新泵站
+
+v1.2.*   Add new pump communication v705
+v1.2.1   null ref exception, new pump
+v1.2.0.2 socket.RemoteEndPoint objectDisposedException
+v1.3.0.0 sort 
+v1.3.0.2 gate lock state error, gate zmheight
+v1.4.0.0 add frmone
+v1.4.0.1 pump run state error
+
+v1.4.0.2 2009-6-17
+fix newPumpDataCache save flux, effice = -1 to db
+

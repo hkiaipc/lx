@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<syssubfile>
+<FileNode Name="雨情检测.drw">
+<FileName File="WebControl6.dll"/>
+</FileNode>
+<FileNode Name="闸门月报表.drw">
+<FileName File="DateTime.dll"/>
+<FileName File="Combox.dll"/>
+<FileName File="Report.dll"/>
+</FileNode>
+<FileNode Name="退水闸组态画面.drw">
+<FileName File="Panel.dll"/>
+<FileName File="Panel.dll"/>
+<FileName File="Panel.dll"/>
+<FileName File="Panel.dll"/>
+<FileName File="Panel.dll"/>
+</FileNode>
+<FileNode Name="进水闸组态画面.drw">
+<FileName File="Panel.dll"/>
+<FileName File="Panel.dll"/>
+<FileName File="Panel.dll"/>
+<FileName File="Panel.dll"/>
+<FileName File="Panel.dll"/>
+</FileNode>
+<FileNode Name="节制闸流量清零.drw">
+<FileName File="TextControl6.dll"/>
+</FileNode>
+<FileNode Name="累积流量清零画面.drw">
+<FileName File="TextControl6.dll"/>
+</FileNode>
+<FileNode Name="水情报表.drw">
+<FileName File="DateTime.dll"/>
+<FileName File="Report.dll"/>
+</FileNode>
+<FileNode Name="欢迎画面.drw">
+<FileName File="TextControl6.dll"/>
+<FileName File="TextControl6.dll"/>
+</FileNode>
+<FileNode Name="年报表.drw">
+<FileName File="Combox.dll"/>
+<FileName File="Report.dll"/>
+</FileNode>
+<FileNode Name="实时报表.drw">
+<FileName File="Report.dll"/>
+</FileNode>
+<FileNode Name="历史数据.drw">
+<FileName File="Report.dll"/>
+<FileName File="Combox.dll"/>
+<FileName File="TextControl6.dll"/>
+<FileName File="CheckBox.dll"/>
+<FileName File="DateTime.dll"/>
+<FileName File="DateTime.dll"/>
+</FileNode>
+<FileNode Name="雨量报表.drw">
+<FileName File="DateTime.dll"/>
+<FileName File="Report.dll"/>
+</FileNode>
+<FileNode Name="mainsub">
+<FileName File="ADOModule2.dll"/>
+</FileNode>
+</syssubfile>

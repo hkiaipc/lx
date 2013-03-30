@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SYQuery", "SYQuery\SYQuery.csproj", "{1A6D8172-1EE0-40F8-8215-088C76A3AA63}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SYQuerySetup", "SYQuerySetup\SYQuerySetup.vdproj", "{A497FDFC-A69F-4C88-8FB6-9AA3B256B3B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A6D8172-1EE0-40F8-8215-088C76A3AA63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A6D8172-1EE0-40F8-8215-088C76A3AA63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A6D8172-1EE0-40F8-8215-088C76A3AA63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A6D8172-1EE0-40F8-8215-088C76A3AA63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A497FDFC-A69F-4C88-8FB6-9AA3B256B3B5}.Debug|Any CPU.ActiveCfg = Debug
+		{A497FDFC-A69F-4C88-8FB6-9AA3B256B3B5}.Debug|Any CPU.Build.0 = Debug
+		{A497FDFC-A69F-4C88-8FB6-9AA3B256B3B5}.Release|Any CPU.ActiveCfg = Release
+		{A497FDFC-A69F-4C88-8FB6-9AA3B256B3B5}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
